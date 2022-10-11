@@ -1,3 +1,8 @@
+body {
+    padding: 0px;
+    margin: 0px
+}
+
 header {
     height: 200px;
     background-color: rgb(78, 78, 78);
@@ -9,13 +14,18 @@ footer {
     display: flex;
     flex-direction: column;
     margin-top: auto;
-    position: relative;
+    position: fixed;
     z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
 }
 .column-one {
     height: 100vh;
     width: 300px;
     display: flex;
+    justify-content: flex-start;
     flex-direction: column;
     background-color: lightgray;
     z-index: 2;
@@ -25,7 +35,7 @@ footer {
     height: 100vh;
     width: 300px;
     display: flex;
-    margin-left: 2180px;
+    margin-left: 2200px;
     flex-direction: column;
     justify-content: flex-end;
     background-color: lightgray;
