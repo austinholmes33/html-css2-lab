@@ -56,11 +56,12 @@ header {
 
 .bottom{
     height: 350px;
-    width: 25%;
+    width: 500px;
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
     filter: drop-shadow(2px 2px 2px black)
 }
 
