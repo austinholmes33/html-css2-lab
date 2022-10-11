@@ -29,6 +29,7 @@ footer {
     flex-direction: column;
     background-color: lightgray;
     z-index: 2;
+    position: absolute;
 }
 
 .column-two {
