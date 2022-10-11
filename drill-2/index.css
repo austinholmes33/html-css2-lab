@@ -50,7 +50,8 @@ header {
     height: 275px;
     width: 2350px;
     background-color: rgb(255, 249, 213);
-    filter: drop-shadow(10px 10px 2px black)
+    filter: drop-shadow(10px 10px 2px black);
+    position: relative;
 }
 
 .bottom{
@@ -64,5 +65,17 @@ header {
 }
 
 .hello {
+    font-size: 40px;
+    color: purple;
+    display: flex;
+    align-content: center;
+    letter-spacing: 10px;
+}
 
+.friends {
+    font-size: 40px;
+    color: purple;
+    display: flex;
+    align-content: center;
+    letter-spacing: 10px;
 }
