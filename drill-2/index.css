@@ -54,6 +54,13 @@ header {
     position: relative;
 }
 
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
 .bottom{
     height: 350px;
     width: 500px;
